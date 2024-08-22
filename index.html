@@ -20,24 +20,33 @@
 
         h1 {
             color: #333;
-            margin-bottom: 30px;
-            font-size: 2.5rem;
+            margin-bottom: 20px;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #555;
+            margin-bottom: 20px;
+            padding: 0 15px;
+            font-size: 1rem;
         }
 
         form {
             background-color: #fff;
-            padding: 30px;
+            padding: 20px;
             border-radius: 12px;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
             text-align: center;
-            width: 100%;
+            width: 90%;
             max-width: 400px;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
         }
 
         label {
             display: block;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
             font-weight: bold;
             font-size: 1rem;
             color: #555;
@@ -45,8 +54,8 @@
 
         input[type="text"], input[type="file"] {
             width: 100%;
-            padding: 12px;
-            margin-bottom: 20px;
+            padding: 10px;
+            margin-bottom: 15px;
             border-radius: 8px;
             border: 1px solid #ddd;
             box-sizing: border-box;
@@ -80,48 +89,53 @@
         }
 
         #progress, #result {
-            margin-top: 20px;
+            margin-top: 15px;
             color: #333;
+            font-size: 0.9rem;
+            text-align: center;
         }
 
         .qr-section {
             background-color: #fff;
-            padding: 20px;
+            padding: 15px;
             border-radius: 12px;
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
             text-align: center;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             max-width: 400px;
-            width: 100%;
+            width: 90%;
         }
 
         .qr-section h2 {
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             color: #007bff;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
             display: flex;
             align-items: center;
             justify-content: center;
         }
 
         .qr-section h2 i {
-            margin-right: 10px;
+            margin-right: 5px;
         }
 
         .qr-section p {
             margin: 10px 0;
             color: #555;
-            font-size: 0.9rem;
+            font-size: 0.85rem;
         }
 
         .qr-section img {
             margin-top: 10px;
+            width: 80%;
+            max-width: 200px;
+            height: auto;
             border-radius: 8px;
             box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
         }
 
         footer {
-            margin-top: 30px;
+            margin-top: 20px;
             text-align: center;
             color: #777;
             font-size: 0.9rem;
@@ -139,8 +153,8 @@
     </style>
 </head>
 <body>
-    <h1>公益皮肤加密</h1>
-    <p class="subtitle">适配所有皮肤加密，如果你想要加密性能更强，欢迎使用打标机（全网最强打标和加密方案）或者空包机（只支持安卓）</p>
+    <h1>文件上传加密</h1>
+    <p class="subtitle">如果你想要加密性能更强，欢迎使用空包机（需付费，且仅支持安卓）</p>
     <form id="uploadForm">
         <label for="timestampInput">输入加密密钥：</label>
         <input type="text" id="timestampInput" placeholder="输入加密密钥（扫码关注下方公众号发送“密钥获取）" />
